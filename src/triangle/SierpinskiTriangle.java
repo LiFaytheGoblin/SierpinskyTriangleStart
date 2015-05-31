@@ -51,10 +51,10 @@ public class SierpinskiTriangle {
 		g2.setBackground(Color.white);
 		g2.clearRect(0, 0, size.width, size.height);
 		g2.draw3DRect(20, 20, size.width - 40, size.height - 40, false);
-		int[] xPoints = { 20, size.width - 40, 20 + (size.width - 40) / 2 };
-		int[] yPoints = { size.height - 40, size.height - 40, 20 };
+		int[] xPoints = { 20, size.width - 20, 20 + (size.width - 20) / 2 };
+		int[] yPoints = { size.height - 20, size.height - 20, 20 };
 		g2.drawPolygon(xPoints, yPoints, xPoints.length);
-		g.drawLine(20, 20, size.width - 40, size.height - 40);
+		g.drawLine(20, 20, size.width - 20, size.height - 20);
 
 	}
 
