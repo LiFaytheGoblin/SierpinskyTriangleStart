@@ -14,17 +14,13 @@ local.properties
 # External tool builders
 .externalToolBuilders/
 
-# Locally stored "Eclipse launch configurations"
-*.launch
-
 # CDT-specific
 .cproject
 
 # PDT-specific
 .buildpath
 
-# sbteclipse plugin
-.target
+# IntelliJ Idea
+.idea/**/codeStyles
+.idea/**/workspace.xml
 
-# TeXlipse plugin
-.texlipse
